@@ -3,7 +3,6 @@ const currentDate = new Date();
 const firstName = prompt ("Come ti chiami?");
 const lastName = prompt ("Qual è il tuo cognome");
 const yearOfBirth = prompt ("Indicami il tuo anno di nascita");
-const departure = prompt ("inserisci città da cui partire")
 const destination = prompt ("inserisci  città a cui si è diretti");
 // Città
 const napoli = "Napoli";
@@ -142,7 +141,6 @@ document.getElementById("compliments").innerHTML= `Complimenti ${fullName} il tu
 
 // CONSOLE
 console.log("l'utente ha" + " " + userAge + " " + "anni");
-console.log(departure);
 console.log(destination);
 
 
