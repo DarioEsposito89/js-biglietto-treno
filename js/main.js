@@ -3,7 +3,7 @@ const currentDate = new Date();
 const firstName = prompt ("Come ti chiami?");
 const lastName = prompt ("Qual è il tuo cognome");
 const yearOfBirth = prompt ("Indicami il tuo anno di nascita");
-const destination = prompt ("inserisci  città a cui si è diretti");
+const destination = prompt ("inserisci la città a cui sei diretto");
 // Città
 const napoli = "Napoli";
 const milano = "Milano";
