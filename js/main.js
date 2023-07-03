@@ -75,21 +75,21 @@ const priceFianalMinorsRoma = (ticketPriceRoma - discountMinorsRoma);
 const priceFianalover65Roma = (ticketPriceRoma - discountOver65Roma);
 
 // Calcolo prezzo biglietto
-if (departure == napoli && destination == milano) {
+if (destination == milano) {
     document.getElementById('final-price').innerHTML = ticketPriceMilano.toFixed(2);
-} else if (departure == napoli && destination == torino) {
+} else if (destination == torino) {
     document.getElementById('final-price').innerHTML = ticketPriceTorino.toFixed(2);
-} else if (departure == napoli && destination == firenze) {
+} else if (destination == firenze) {
     document.getElementById('final-price').innerHTML = ticketPriceFirenze.toFixed(2);
-} else if (departure == napoli && destination == bologna) {
+} else if (destination == bologna) {
     document.getElementById('final-price').innerHTML = ticketPriceBologna.toFixed(2);
-} else if (departure == napoli && destination == perugia) {
+} else if (destination == perugia) {
     document.getElementById('final-price').innerHTML = ticketPricePerugia.toFixed(2);
-} else if (departure == napoli && destination == potenza) {
+} else if (destination == potenza) {
     document.getElementById('final-price').innerHTML = ticketPricePotenza.toFixed(2);
-} else if (departure == napoli && destination == bari) {
+} else if (destination == bari) {
     document.getElementById('final-price').innerHTML = ticketPriceBari.toFixed(2);
-} else if (departure == napoli && destination == roma) {
+} else if (destination == roma) {
     document.getElementById('final-price').innerHTML = ticketPriceRoma.toFixed(2);
 }
 
